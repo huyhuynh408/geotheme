@@ -3,7 +3,20 @@
   top: 0;
   left: 0;
   display: fixed;
-  width: 15%;
+  width: 12%;
   height: 100%;
-  background-color: black;
+  background-color: white;
+  padding-right: 3px;
+  border-width: 3px 3px 3px 0;
+  border-style: solid;
+  -webkit-border-image:
+    -webkit-gradient(linear, 0 0, 100% 0, from(gray), to(rgba(0, 0, 0, 0))) 1 100%;
+  -webkit-border-image:
+    -webkit-linear-gradient(left, gray, rgba(0, 0, 0, 0)) 1 100%;
+  -moz-border-image:
+    -moz-linear-gradient(left, gray, rgba(0, 0, 0, 0)) 1 100%;
+  -o-border-image:
+    -o-linear-gradient(left, gray, rgba(0, 0, 0, 0)) 1 100%;
+  border-image:
+    linear-gradient(to left, gray, rgba(0, 0, 0, 0)) 1 100%;
 }
