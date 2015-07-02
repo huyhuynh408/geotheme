@@ -1,0 +1,20 @@
+.ad {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 2px;
+  right: 2px;
+   background-color: white;
+  border-width: 0 3px 0 3px;
+  border-style: solid;
+  -webkit-border-image:
+    -webkit-gradient(linear, 0 0, 100% 0, from(gray), to(rgba(0, 0, 0, 0))) 1 100%;
+  -webkit-border-image:
+    -webkit-linear-gradient(left, gray, rgba(0, 0, 0, 0)) 1 100%;
+  -moz-border-image:
+    -moz-linear-gradient(left, gray, rgba(0, 0, 0, 0)) 1 100%;
+  -o-border-image:
+    -o-linear-gradient(left, gray, rgba(0, 0, 0, 0)) 1 100%;
+  border-image:
+    linear-gradient(to left, gray, rgba(0, 0, 0, 0)) 1 100%;
+}
