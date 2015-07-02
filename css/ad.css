@@ -18,14 +18,16 @@
     -o-linear-gradient(left, gray, rgba(0, 0, 0, 0)) 1 100%;
   border-image:
     linear-gradient(to left, gray, rgba(0, 0, 0, 0)) 1 100%;*/
+  text-align: right;
 }
 
 .ad span {
+  /*float: right;*/
   display: inline-block;
   width: 20px;
   height: 20px;
-  /*padding: 3px;*/
   font-size: 0.85em;
+  text-align: center;
   border-left: 1px solid white;
   border-top: 1px solid white;
   -webkit-box-shadow: 1px 1px 0px 0px rgba(0,0,0,0.75);
