@@ -1,3 +1,12 @@
-.main-container img {
+.main-container p img {
   width: 25px;
+}
+
+.main-container table img {
+  width: 450px;
+}
+
+.main-container td {
+  border: 2px solid #ccc;
+  padding: 2em 3em;
 }
