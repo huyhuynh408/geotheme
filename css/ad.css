@@ -20,7 +20,20 @@
     linear-gradient(to left, gray, rgba(0, 0, 0, 0)) 1 100%;*/
 }
 
+.ad span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  /*padding: 3px;*/
+  font-size: 0.85em;
+  border-left: 1px solid white;
+  border-top: 1px solid white;
+  -webkit-box-shadow: 1px 1px 0px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px 1px 0px 0px rgba(0,0,0,0.75);
+  box-shadow: 1px 1px 0px 0px rgba(0,0,0,0.75);
+}
+
 .ad div {
   background-color: white;
-  height: 196px;
+  height: 160px;
 }
