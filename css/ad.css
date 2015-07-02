@@ -2,10 +2,11 @@
   width: 200px;
   height: 200px;
   position: absolute;
-  top: 2px;
-  right: 2px;
-   background-color: white;
-  border-width: 0 3px 0 3px;
+  top: 0px;
+  right: 0px;
+  padding: 3px;
+  background-color: #ccc;
+/*  border-width: 0 3px 0 3px;
   border-style: solid;
   -webkit-border-image:
     -webkit-gradient(linear, 0 0, 100% 0, from(gray), to(rgba(0, 0, 0, 0))) 1 100%;
@@ -16,5 +17,10 @@
   -o-border-image:
     -o-linear-gradient(left, gray, rgba(0, 0, 0, 0)) 1 100%;
   border-image:
-    linear-gradient(to left, gray, rgba(0, 0, 0, 0)) 1 100%;
+    linear-gradient(to left, gray, rgba(0, 0, 0, 0)) 1 100%;*/
+}
+
+.ad div {
+  background-color: white;
+  height: 196px;
 }
