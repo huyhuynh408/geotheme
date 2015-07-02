@@ -122,7 +122,12 @@ nav a:hover {
    Author's custom styles
    ========================================================================== */
 
-
+.header-container,
+.main-container,
+.footer-container {
+    width: 85%;
+    float: right;
+}
 
 /* ==========================================================================
    Media Queries
@@ -151,9 +156,6 @@ nav a:hover {
     INTERMEDIATE: IE Fixes
    ======================== */
 
-    nav ul li {
-        display: inline;
-    }
 
     .oldie nav a {
         margin: 0 0.7%;
@@ -181,10 +183,6 @@ nav a:hover {
         float: left;
     }
 
-    nav {
-/*        float: right;
-        width: 38%;*/
-    }
 
 /* ============
     WIDE: Main
