@@ -1,7 +1,7 @@
 .ad {
   width: 200px;
   height: 200px;
-  position: absolute;
+  position: fixed;
   top: 0px;
   right: 0px;
   padding: 3px;
