@@ -6,8 +6,8 @@
   width: 15%;
   min-height: 100%;
   bottom: auto;
-  background-color: white;
-  padding-right: 3px;
+/*  background-color: white;
+*/  padding-right: 3px;
   border-width: 3px 3px 3px 0;
   border-style: solid;
   -webkit-border-image:
@@ -20,4 +20,6 @@
     -o-linear-gradient(left, gray, rgba(0, 0, 0, 0)) 1 100%;
   border-image:
     linear-gradient(to left, gray, rgba(0, 0, 0, 0)) 1 100%;
+  cursor:ew-resize;
+  background-image: url("../img/cloudy.png");
 }

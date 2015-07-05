@@ -60,6 +60,7 @@ textarea {
 body {
     font: 16px/26px 'Aldrich', sans-serif;
     height: 100%;
+    background-image: url("../img/cloudy.png");
 }
 
 .wrapper {
