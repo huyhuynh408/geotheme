@@ -8,18 +8,19 @@
   bottom: auto;
 /*  background-color: white;
 */  padding-right: 3px;
-  border-width: 3px 3px 3px 0;
+  border-width: 5px 5px 5px 0;
   border-style: solid;
   -webkit-border-image:
-    -webkit-gradient(linear, 0 0, 100% 0, from(gray), to(rgba(0, 0, 0, 0))) 1 100%;
+    -webkit-gradient(linear, 0 0, 100% 0, from(gray), to(rgba(255, 255, 255, 1))) 1 100%;
   -webkit-border-image:
-    -webkit-linear-gradient(left, gray, rgba(0, 0, 0, 0)) 1 100%;
+    -webkit-linear-gradient(left, gray, rgba(255, 255, 255, 1)) 1 100%;
   -moz-border-image:
-    -moz-linear-gradient(left, gray, rgba(0, 0, 0, 0)) 1 100%;
+    -moz-linear-gradient(left, gray, rgba(255, 255, 255, 1)) 1 100%;
   -o-border-image:
-    -o-linear-gradient(left, gray, rgba(0, 0, 0, 0)) 1 100%;
+    -o-linear-gradient(left, gray, rgba(255, 255, 255, 1)) 1 100%;
   border-image:
-    linear-gradient(to left, gray, rgba(0, 0, 0, 0)) 1 100%;
+    linear-gradient(to left, gray, rgba(255, 255, 255, 1)) 1 100%;
+
   cursor:ew-resize;
   background-image: url("../img/cloudy.png");
 }
