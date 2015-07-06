@@ -20,7 +20,9 @@
     -o-linear-gradient(left, gray, rgba(255, 255, 255, 1)) 1 100%;
   border-image:
     linear-gradient(to left, gray, rgba(255, 255, 255, 1)) 1 100%;
-
+  -webkit-box-shadow: 2px 0px 7px -1px rgba(82,82,82,0.69);
+  -moz-box-shadow: 2px 0px 7px -1px rgba(82,82,82,0.69);
+  box-shadow: 2px 0px 7px -1px rgba(82,82,82,0.69);
   cursor:ew-resize;
   background-image: url("../img/cloudy.png");
 }
